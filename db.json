@@ -1,6 +1,6 @@
 {
   "auth": {
-    "isLoggedIn": false
+    "token": "your-auth-token"
   },
   "users": [
     {
