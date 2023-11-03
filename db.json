@@ -1,4 +1,21 @@
 {
+  "auth": {
+    "isLoggedIn": false
+  },
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2"
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -11,13 +28,6 @@
       "name": "Product 2",
       "description": "Description for Product 2",
       "price": 29.99
-    },
-    {
-      "id": 3,
-      "name": "Product 3",
-      "description": "Description for Product 3",
-      "price": 39.99
     }
-  ],
-  "cart": []
+  ]
 }
